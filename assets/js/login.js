@@ -57,7 +57,7 @@ $(function() {
                 //将登陆成功得到的token字符串，保存到localStorage中
                 localStorage.setItem('token',res.token)
                 // console.log(res.token);
-                location.href='/index.html'
+                location.href='http://127.0.0.1:5500/04/03/code/index.html'
             }
         })
     })
